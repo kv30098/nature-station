@@ -1,0 +1,44 @@
+/* 題目內容樣式 */
+#quiz-container {
+    position: relative;
+    text-align: right;
+    margin: 100px;
+}
+
+.question {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    text-justify: center;
+}
+
+.question-image img {
+    width: 10%;
+    display: block;
+    margin: 0
+}
+
+.options div {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    justify-content:center;
+}
+
+.navigation-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.navigation-buttons button {
+    flex: 1;
+    margin: 0 5px;
+}
